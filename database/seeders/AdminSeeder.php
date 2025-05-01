@@ -15,7 +15,7 @@ class AdminSeeder extends Seeder
     public function run(): void
     {
         User::firstOrCreate(
-            ['email' => 'admin@example.com'], // เงื่อนไขตรวจซ้ำ
+            ['email' => 'sofin0011@example.com'], // เงื่อนไขตรวจซ้ำ
             [
                 'name' => 'ผู้ดูแลระบบ',
                 'email_verified_at' => now(),
